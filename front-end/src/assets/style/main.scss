@@ -1,0 +1,27 @@
+@import '../../lib/hotcss/px2rem.scss';
+
+// 用于按钮、按钮文字、选中字体、tab选中
+$act-color: #fb7299;
+// 用于重要内容、标题文字、内容文字等
+$text-color-imp: #fff;
+// 副标题文字、内容文字
+$text-color: #757575;
+// 用于搜索底色、tab选中色
+$src-bg: #fafafa;
+
+// 设置字体大小
+$text-size-imp: px2rem(36);
+$text-size-mid: px2rem(28);
+$text-size:px2rem(24);
+$text-size-small: px2rem(22);
+
+// 高度公共的变量
+
+$th: px2rem(120); // 顶部的高度
+
+.input-file {
+  height: 0;
+  width: 0;
+  position: absolute;
+  visibility: hidden;
+}
